@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CJ - Login</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Set the body element to use the background picture */
+      body {
+        background-image: url("assets/healthy.png");
+        background-size: cover;
+      }
+      /* Set the container element to be positioned absolute and center on the page */
+      .container {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 400px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 5px;
+        z-index: 1;
+      }
+      /* Style the form elements */
+      form {
+        margin: 20px;
+      }
+      input[type="text"],
+      input[type="email"],
+      input[type="password"] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+      input[type="submit"] {
+        width: 100%;
+        background-color: #1d0ef3;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      input[type="submit"]:hover {
+        background-color: #1b0abb;
+      }
+      /* Add some animation to the form */
+      form {
+        animation: fadein 2s;
+      }
+      @keyframes fadein {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="assets/logo.jpg" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+            Fitness
+          </a>
+        </div>
+      </nav>
+    </nav> -->
+
+    <div class="container">
+      <form action="login.php" method="post">
+        <h2>Login</h2>
+        <label for="text">User ID:</label><br />
+        <input type="text" name="user_id" /><br />
+        <label for="password">Password:</label><br />
+        <input type="password" name="user_password" /><br /><br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
