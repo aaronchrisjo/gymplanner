@@ -78,12 +78,12 @@
       }
     </style>
 
-    <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet" />
   </head>
 
   <body>
-    <header class="p-3 mb-3 border-bottom">
+    <!-- logged in navbar starts -->
+    <header class="p-3 border-bottom">
       <div class="container">
         <div
           class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
@@ -110,28 +110,7 @@
               <a href="home.html" class="nav-link px-2 link-secondary">Home</a>
             </li>
             <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Planner
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="courses.html">Courses</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="routine.html">Routines</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Progress</a></li>
-              </ul>
-            </li>
-            <li><a href="#" class="nav-link px-2 link-dark">Gallery</a></li>
+            <li><a href="courses.html" class="nav-link px-2 link-dark">Courses</a></li>
             <li><a href="#" class="nav-link px-2 link-dark">Contact Us</a></li>
           </ul>
 
@@ -170,6 +149,7 @@
         </div>
       </div>
     </header>
+    <!-- navbar ends -->
 
     <main>
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
@@ -197,18 +177,7 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img
-              src="assets/gym01.jpg"
-              alt="A description of the image"
-              width="1920"
-              height="600"
-            />
-            <!-- <div id="bgvideo">
-              <video id="firstvideo" autoplay loop muted>
-                <source src="vid1.mp4" type="video/mp4" />
-              </video>
-            </div> -->
-
+            <img src="assets/pxfuel.jpg" alt="A description of the image" width="1920" height="600">
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -223,22 +192,17 @@
             <div class="container">
               <div class="carousel-caption text-start">
                 <h1>WELCOME TO CJ'S</h1>
-                <p>Where your well-being is #1.</p>
-                <!-- <p>
-                  <a class="btn btn-lg btn-primary" href="signup.html"
-                    >Sign up today</a
-                  >
-                </p> -->
+                <p>
+                  Where your well-being is #1.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="signup.html">Sign up today</a>
+                </p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="assets/gay.jpg"
-              alt="A description of the image"
-              width="1920"
-              height="600"
-            />
+            <img src="assets/gym001.jpg" alt="A description of the image" width="1920" height="600">
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -254,20 +218,14 @@
               <div class="carousel-caption">
                 <h1>About out venture</h1>
                 <p>
-                  Our aim is to set aside the typical methods we follow today
-                  to....
+                  Our aim is to set aside the typical methods we follow today to....
                 </p>
                 <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
               </div>
             </div>
           </div>
           <div class="carousel-item">
-            <img
-              src="assets/healthy.jpg"
-              alt="A description of the image"
-              width="1920"
-              height="600"
-            />
+            <img src="assets/gym002.jpg" alt="A description of the image" width="1920" height="600">
             <svg
               class="bd-placeholder-img"
               width="100%"
@@ -282,7 +240,9 @@
             <div class="container">
               <div class="carousel-caption text-end">
                 <h1>One more for good measure.</h1>
-                <p>See how it works at CJ's</p>
+                <p>
+                  See how it works at CJ's
+                </p>
                 <p>
                   <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
                 </p>
@@ -310,79 +270,65 @@
         </button>
       </div>
 
-      <!-- Marketing messaging and featurettes
-  ================================================== -->
-      <!-- Wrap the rest of the page in another container to center all the content. -->
-
+      
       <div class="container marketing">
-        <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
+            <img
+                 src="assets/bodyweight.jpg" 
+                 class="bd-placeholder-img rounded-circle"
+                 width="140"
+                 height="140"
+                 alt="Image Description" 
+             />
+
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
             </svg>
             <h2 class="fw-normal">Inspiration</h2>
-            <p>What inspired us to start this venture</p>
+            <p>
+              What inspired us to start this venture
+            </p>
             <p>
               <a class="btn btn-secondary" href="#">View details &raquo;</a>
             </p>
           </div>
-          <!-- /.col-lg-4 -->
+
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
+            <img
+                 src="assets/bodyweight.jpg" 
+                 class="bd-placeholder-img rounded-circle"
+                 width="140"
+                 height="140"
+                 alt="Image Description" 
+             />
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
             </svg>
             <h2 class="fw-normal">Our Gym Planner</h2>
-            <p>Our app gives most prominent result to all</p>
             <p>
-              <a class="btn btn-secondary" href="courses.html"
-                >View details &raquo;</a
-              >
+              Our app gives most prominent result to all
+            </p>
+            <p>
+              <a class="btn btn-secondary" href="courses.html">View details &raquo;</a>
             </p>
           </div>
-          <!-- /.col-lg-4 -->
+
           <div class="col-lg-4">
-            <svg
-              class="bd-placeholder-img rounded-circle"
-              width="140"
-              height="140"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 140x140"
-              preserveAspectRatio="xMidYMid slice"
-              focusable="false"
-            >
+            <img
+                 src="assets/bodyweight.jpg" 
+                 class="bd-placeholder-img rounded-circle"
+                 width="140"
+                 height="140"
+                 alt="Image Description" 
+             />
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#777" />
-              <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text>
             </svg>
             <h2 class="fw-normal">Contact Us</h2>
-            <!-- <p>
-              And lastly this, the third column of representative placeholder
-              content.
-            </p> -->
+            <p>
+              Here are our details 
+            </p>
             <p>
               <a class="btn btn-secondary" href="#">View details &raquo;</a>
             </p>
@@ -407,19 +353,16 @@
             </p>
           </div>
           <div class="col-md-5">
-            <svg
+            <img
               class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
               height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
+              src="assets/gym003.jpg"
               focusable="false"
+              alt="Man working out"
             >
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
             </svg>
           </div>
         </div>
@@ -439,19 +382,16 @@
             </p>
           </div>
           <div class="col-md-5 order-md-1">
-            <svg
+            <img
               class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
               height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
+              src="assets/gym003.jpg"
               focusable="false"
+              alt="Man working out"
             >
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
             </svg>
           </div>
         </div>
@@ -471,19 +411,16 @@
             </p>
           </div>
           <div class="col-md-5">
-            <svg
+            <img
               class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
               width="500"
               height="500"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="Placeholder: 500x500"
-              preserveAspectRatio="xMidYMid slice"
+              src="assets/gym003.jpg"
               focusable="false"
+              alt="Man working out"
             >
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#eee" />
-              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
             </svg>
           </div>
         </div>
@@ -492,7 +429,6 @@
 
         <!-- /END THE FEATURETTES -->
       </div>
-      <!-- /.container -->
 
       <!-- FOOTER -->
       <footer class="container">
