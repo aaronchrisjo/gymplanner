@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.108.0" />
+    <title>CJ - Home</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/5.3/examples/carousel/"
+    />
+
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, 0.1);
+        border: solid rgba(0, 0, 0, 0.15);
+        border-width: 1px 0;
+        box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+          inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -0.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    <link href="carousel.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- logged in navbar starts -->
+    <header class="p-3 border-bottom">
+      <div class="container">
+        <div
+          class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none"
+          >
+            <svg
+              class="bi me-2"
+              width="40"
+              height="32"
+              role="img"
+              aria-label="Bootstrap"
+            >
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+
+          <ul
+            class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0"
+          >
+            <li>
+              <a href="home.html" class="nav-link px-2 link-secondary">Home</a>
+            </li>
+            <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
+            <li><a href="courses.html" class="nav-link px-2 link-dark">Courses</a></li>
+            <li><a href="#" class="nav-link px-2 link-dark">Contact Us</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+            <input
+              type="search"
+              class="form-control"
+              placeholder="Search..."
+              aria-label="Search"
+            />
+          </form>
+
+          <div class="dropdown text-end">
+            <a
+              href="#"
+              class="d-block link-dark text-decoration-none dropdown-toggle"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="assets/tate.avif"
+                alt="mdo"
+                width="32"
+                height="32"
+                class="rounded-circle"
+              />
+            </a>
+            <ul class="dropdown-menu text-small">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="index.html">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- navbar ends -->
+    <br><br>
+
+    <style>
+        .thin-box {
+          border: 1px solid #ffffff; /* Thin border style and color */
+          padding: 10px; /* Padding for the box */
+        }
+      </style>
+      
+      <div class="thin-box">
+        <style>
+          .centered-text {
+            text-align: center;
+            text-decoration: underline;
+            padding: 10px; /* Adjust the padding as needed */
+          }
+        </style>
+      
+        <div class="centered-text">
+          <h3>About Our Gym Planner App</h3>
+        </div>
+      
+        <h5>Welcome to our Gym Planner App, your go-to fitness companion for a healthier and more active lifestyle!</h5>
+      
+        <div class="centered-text">
+          <h3>What We Offer:</h3>
+        </div>
+      
+        <h5>
+          At Gym Planner, we understand the importance of fitness in your life. Our app is designed to help you achieve your fitness goals with ease and efficiency. Whether you're a beginner looking to get started or a seasoned fitness enthusiast, our app has something for everyone.
+        </h5>
+      
+        <div class="centered-text">
+          <h3>Key Features:</h3>
+        </div>
+      
+        <h4>Personalized Workouts:</h4>
+        <h5>Our app provides a wide range of workout plans tailored to your fitness level, goals, and preferences. Whether you're interested in cardio, strength training, or yoga, we've got you covered.</h5>
+      
+        <h4>Interactive Exercise Library:</h4>
+        <h5>Access a library of exercises with detailed instructions and videos to ensure you perform each exercise with proper form and technique.</h5>
+      
+        <h4>Progress Tracking:</h4>
+        <h5>Keep tabs on your fitness journey with built-in tracking tools. Monitor your weight, body measurements, and see how you're progressing toward your fitness goals.</h5>
+      
+        <h4>Customized Meal Plans:</h4>
+        <h5>Achieving your fitness goals is not just about exercise; it's also about nutrition. Our app offers personalized meal plans to complement your workouts.</h5>
+      
+        <h4>Community Support:</h4>
+        <h5>Connect with a community of like-minded fitness enthusiasts. Share your achievements, seek advice, and stay motivated together.</h5>
+      
+        <div class="centered-text">
+          <h3>Why Choose Us:</h3>
+        </div>
+      
+        <h4>User-Friendly Interface:</h4>
+        <h5>Our app is designed for ease of use, ensuring that you can focus on your workouts, not on figuring out how to use the app.</h5>
+      
+        <h4>Scientifically Backed:</h4>
+        <h5>Our workout and nutrition plans are created based on scientific research and recommendations.</h5>
+      
+        <h4>Accessible Anywhere:</h4>
+        <h5>Whether you're at the gym, at home, or on the go, you can access your workout plans and track your progress.</h5>
+      
+        <h4>Motivation and Accountability:</h4>
+        <h5>We believe in your fitness journey, and our app is here to provide the motivation and accountability you need to stay on track.</h5>
+      
+        <div class="centered-text">
+          <h3>Join Us Today:</h3>
+        </div>
+      
+        <h4>Take the first step towards a healthier you by downloading our Gym Planner App. We're committed to helping you reach your fitness goals, and we can't wait to be part of your fitness journey.</h4>
+      
+        <h2>Start your fitness adventure with Gym Planner today and experience the transformation of your body and mind!</h2>
+      </div>
+      
+      
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
